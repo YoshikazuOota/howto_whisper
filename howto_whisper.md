@@ -60,8 +60,11 @@ d はボリュームを上げても、ノイズ感が気にならない程度に
 
 
 ### お試しリポジトリ
-お試ししやすいようにリポジトリを用意しました。
-コマンドのパスやファイルパスなどは、こちらのレポジトリで作業することを前提に記述しています。
+お試ししやすいようにお試し用リポジトリを用意しました。
+コマンドのパスやファイルパスなどは、こちらのリポジトリで作業することを前提に記述しています。
+
+**本記事のお試しリポジトリ**
+https://github.com/YoshikazuOota/howto_whisper
 
 リポジトリに内包している[toWhisperNet v1.1](https://github.com/ksasao/toWhisper) は修正BSDライセンスの元、再配布をしております。  
 著作権表記ファイル：howto_whisper/toWhisper-master/COPYRIGHT
@@ -122,12 +125,12 @@ http://goma1989.blog12.fc2.com/blog-entry-13.html
 ![eq_setting](./screen_shot/05.png)
 
 **補足**
-このイコライザー設定ファイルはレポジトリの [whisper_eq_setting.XML]()に、置いてあります。  
+このイコライザー設定ファイルはレポジトリの [whisper_eq_setting.XML](https://github.com/YoshikazuOota/howto_whisper/blob/master/whisper_eq_setting.XML)に、置いてあります。  
 この設定を使いたい場合は「管理」ボタンから、先述の XML ファイルを読み込むとご利用できます。
 
 ### 4.3 セクションのまとめ
 toWhisper で処理した音声を、ノイズ感を減らしつつスピーカー視聴できるレベルに、ボリュームアップできた。  
-レポジトリに聴き比べ用の [audacity プロジェクトファイル]()も置いておきました。  
+レポジトリに聴き比べ用の [audacity プロジェクトファイル](https://github.com/YoshikazuOota/howto_whisper/blob/master/audacity_sample/01aka.aup)も置いておきました。  
 
 ![eq_setting](./screen_shot/01.png)
 
@@ -144,6 +147,8 @@ toWhisper で処理した音声を、ノイズ感を減らしつつスピーカ�
 ### 5.1 (1)のバッチの作り方
 バッチファイルを作って、4.1 のコマンドを登録します。  
 一度作るまでが面倒ですが、声の再調整をしても簡単に"囁き声"化ができるので、後々とても楽になります。
+
+**[サンプルバッチファイル](https://github.com/YoshikazuOota/howto_whisper/blob/master/whisper.bat)**
 
 ```whisper.bat
 "./toWhisper-master/ToWhisperNet1.1/ToWhisperNet.exe" ./voices/a_original/01aka.wav -l 0.14 -o ./voices/b_toWhisper/01aka.wav

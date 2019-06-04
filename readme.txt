@@ -1,4 +1,5 @@
-
+『ToWhisper を使った"囁き声"の一括作成』の説明用リポジトリ
+https://qiita.com/atticatticattic/items/7debeffb46f0da7a2677
 
 .
 ├── audacity_sample   : audacity で各種音声変換をして並べた、サンプル
