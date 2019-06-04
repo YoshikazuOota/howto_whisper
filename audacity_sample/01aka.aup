@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="01aka_data" version="1.3.0" audacityversion="2.2.2" sel0="0.0443349754" sel1="0.0443349754" vpos="0" h="0.0000000000" zoom="225.5555555556" rate="44100.0" snapto="off" selectionformat="時:分:秒 + ミリ秒" frequencyformat="Hz" bandwidthformat="オクターブ">
+	<tags/>
+	<wavetrack name="01aka" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="198053">
+				<waveblock start="0">
+					<simpleblockfile filename="e08089b3.au" len="198053" min="-0.264893" max="0.329803" rms="0.044238"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="01aka" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="198450">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808903.au" len="198450" min="-0.106018" max="0.113068" rms="0.007415"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="01aka" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="198450">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808f28.au" len="198450" min="-0.456935" max="0.470839" rms="0.032787"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="01aka" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="198450">
+				<waveblock start="0">
+					<simpleblockfile filename="e080858e.au" len="198450" min="-0.280452" max="0.277767" rms="0.022659"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
